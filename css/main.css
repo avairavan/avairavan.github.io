@@ -1626,7 +1626,7 @@ header .logo a {
 }
 
 #resume ul { 
-  text-indent: 5em;
+  padding-left: 20%;
 }
 
 #resume .resume-header {
