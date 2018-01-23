@@ -1008,9 +1008,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .skill-bars li .percent75  { width: 75%; }
 .skill-bars li .percent80  { width: 80%; }
 .skill-bars li .percent85  { width: 85%; }
-.skill-bars li .percent90  { width: 90%; }
-.skill-bars li .percent95  { width: 95%; color: green;}
-.skill-bars li .percent100 { width: 100%; }
+.skill-bars li .percent90  { width: 90%; background: #0b7b33; }
+.skill-bars li .percent95  { width: 95%; background: #08651c; }
+.skill-bars li .percent100 { width: 100%; background: #015613; }
 
 
 /** 
