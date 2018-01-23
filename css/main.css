@@ -998,19 +998,19 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .skill-bars li .percent25  { width: 25%; }
 .skill-bars li .percent30  { width: 30%; }
 .skill-bars li .percent35  { width: 35%; }
-.skill-bars li .percent40  { width: 40%; }
-.skill-bars li .percent45  { width: 45%; }
-.skill-bars li .percent50  { width: 50%; }
-.skill-bars li .percent55  { width: 55%; }
-.skill-bars li .percent60  { width: 60%; }
-.skill-bars li .percent65  { width: 65%; }
-.skill-bars li .percent70  { width: 70%; }
-.skill-bars li .percent75  { width: 75%; }
-.skill-bars li .percent80  { width: 80%; }
-.skill-bars li .percent85  { width: 85%; }
-.skill-bars li .percent90  { width: 90%; background: #0b7b33; }
-.skill-bars li .percent95  { width: 95%; background: #08651c; }
-.skill-bars li .percent100 { width: 100%; background: #015613; }
+.skill-bars li .percent40  { width: 40%; background: #51f77f}
+.skill-bars li .percent45  { width: 45%; background: #02ce3b}
+.skill-bars li .percent50  { width: 50%; background: #01c137}
+.skill-bars li .percent55  { width: 55%; background: #00b733}
+.skill-bars li .percent60  { width: 60%; background: #00a52e}
+.skill-bars li .percent65  { width: 65%; background: #00962a}
+.skill-bars li .percent70  { width: 70%; background: #018426}
+.skill-bars li .percent75  { width: 75%; background: #017221}
+.skill-bars li .percent80  { width: 80%; background: #005b1a}
+.skill-bars li .percent85  { width: 85%; background: #004f16}
+.skill-bars li .percent90  { width: 90%; background: #004714; }
+.skill-bars li .percent95  { width: 95%; background: #004213; }
+.skill-bars li .percent100 { width: 100%; background: #003a11; }
 
 
 /** 
