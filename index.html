@@ -781,7 +781,7 @@
       deferload.href = 'css/vendor.css';
       deferload.type = 'text/css';
       var cssdefer = document.getElementsByTagName('link')[0];
-      cssdefer.insertBefore(deferload, cssdefer);
+      cssdefer.parentNode.insertBefore(deferload, cssdefer);
    </script>
 </body>
 
