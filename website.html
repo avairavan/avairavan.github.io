@@ -25,22 +25,55 @@
       box-sizing: border-box;
     }
 
+    body {
+      margin: 0;
+      font-family: arial;
+    }
+
+    .header {
+      text-align: center;
+      padding: 32px;
+    }
+
+    .row {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+
+    .column {
+      -ms-flex: 25%;
+      flex: 25%;
+      max-width: 25%;
+      padding: 0 4px;
+    }
+
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+    }
+
     .responsive {
       padding: 0 6px;
       float: left;
       width: 24.99999%;
     }
 
-    @media only screen and (max-width: 700px) {
-      .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
+    @media only screen and (max-width: 800px) {
+      .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
       }
     }
 
-    @media only screen and (max-width: 500px) {
-      .responsive {
-        width: 100%;
+    @media only screen and (max-width: 600px) {
+      .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
       }
     }
 
@@ -54,164 +87,127 @@
 
 <body>
 
-  <h2>Responsive Image Gallery</h2>
-  <h4>Resize the browser window to see the effect.</h4>
+  <div class=header>
+    <h2>Responsive Image Gallery</h2>
+    <h4>Resize the browser window to see the effect.</h4>
+  </div>
 
-  <div class="responsive">
-    <div class="gallery">
+  <div class="row">
+    <div class="column gallery">
       <a target="_blank" href="alotan/index.html">
       <img src="images/Alotan.jpg" alt="Barber Shop" width="600" height="400">
       </a>
     </div>
-  </div>
 
-
-  <div class="responsive">
-    <div class="gallery">
+    <div class="column gallery">
       <a target="_blank" href="bato/index.html">
       <img src="images/Bato.jpg" width="600" height="400">
       </a>
     </div>
-  </div>
 
-  <div class="responsive">
-    <div class="gallery">
+    <div class="column gallery">
       <a target="_blank" href="civic/index.html">
       <img src="images/Civic.jpg" width="600" height="400">
       </a>
     </div>
-  </div>
 
-  <div class="responsive">
-    <div class="gallery">
+    <div class="column gallery">
       <a target="_blank" href="cvportfolio/index.html">
       <img src="images/Cvportfolio.jpg" width="600" height="400">
       </a>
     </div>
-  </div>
 
-  <div class="responsive">
-    <div class="gallery">
+    <div class="column gallery">
       <a target="_blank" href="halo/index.html">
       <img src="images/Halo.jpg" width="600" height="400">
       </a>
     </div>
-  </div>
 
-  <div class="responsive">
-    <div class="gallery">
+    <div class="column gallery">
       <a target="_blank" href="jackson/index.html">
       <img src="images/Jackson.jpg" width="600" height="400">
       </a>
     </div>
-  </div>
 
-  <div class="responsive">
-    <div class="gallery">
+    <div class="column gallery">
       <a target="_blank" href="law/index.html">
       <img src="images/Law.jpg" width="600" height="400">
       </a>
     </div>
-  </div>
 
-  <div class="responsive">
-    <div class="gallery">
+    <div class="column gallery">
       <a target="_blank" href="myprofile/index.html">
       <img src="images/MyProfile.jpg" width="600" height="400">
       </a>
     </div>
-  </div>
 
-  <div class="responsive">
-    <div class="gallery">
+    <div class="column gallery">
       <a target="_blank" href="noah/index.html">
       <img src="images/Noah.jpg" width="600" height="400">
       </a>
     </div>
-  </div>
 
-  <div class="responsive">
-    <div class="gallery">
+    <div class="column gallery">
       <a target="_blank" href="onlinecv/index.html">
       <img src="images/OnlineCV.jpg" width="600" height="400">
       </a>
     </div>
-  </div>
 
-  <div class="responsive">
-    <div class="gallery">
+    <div class="column gallery">
       <a target="_blank" href="personal/index.html">
       <img src="images/Personal.jpg" width="600" height="400">
       </a>
     </div>
-  </div>
 
-  <div class="responsive">
-    <div class="gallery">
+    <div class="column gallery">
       <a target="_blank" href="personify/index.html">
       <img src="images/Personify.jpg" width="600" height="400">
       </a>
     </div>
-  </div>
 
-  <div class="responsive">
-    <div class="gallery">
+    <div class="column gallery">
       <a target="_blank" href="po-portfolio/index.html">
       <img src="images/Po-portfolio.jpg" width="600" height="400">
       </a>
     </div>
-  </div>
 
-  <div class="responsive">
-    <div class="gallery">
+    <div class="column gallery">
       <a target="_blank" href="resumex/index.html">
       <img src="images/ResumeX.jpg" width="600" height="400">
       </a>
     </div>
-  </div>
 
-  <div class="responsive">
-    <div class="gallery">
+    <div class="column gallery">
       <a target="_blank" href="riddle/index.html">
       <img src="images/Riddle.jpg" width="600" height="400">
       </a>
     </div>
-  </div>
 
-  <div class="responsive">
-    <div class="gallery">
+    <div class="column gallery">
       <a target="_blank" href="sasha/index.html">
       <img src="images/Sasha.jpg" width="600" height="400">
       </a>
     </div>
-  </div>
 
-  <div class="responsive">
-    <div class="gallery">
+    <div class="column gallery">
       <a target="_blank" href="studio/index.html">
       <img src="images/studio.jpg" width="600" height="400">
       </a>
     </div>
-  </div>
 
-  <div class="responsive">
-    <div class="gallery">
+    <div class="column gallery">
       <a target="_blank" href="suitcase/index.html">
       <img src="images/Suitcase.jpg" width="600" height="400">
       </a>
     </div>
-  </div>
 
-  <div class="responsive">
-    <div class="gallery">
+    <div class="column gallery">
       <a target="_blank" href="trainer/index.html">
       <img src="images/Trainer.jpg" width="600" height="400">
       </a>
     </div>
-  </div>
 
-  <div class="responsive">
-    <div class="gallery">
+    <div class="column gallery">
       <a target="_blank" href="work/index.html">
       <img src="images/work.jpg" width="600" height="400">
       </a>
