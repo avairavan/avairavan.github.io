@@ -199,11 +199,18 @@
 
    		</div>
    	</div>
+        <div class="form-popup" id="myForm">
+           <form action="/action_page.php" class="form-container">
+                <h1>Oracle Linux Contribution</h1>
+
+                <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
+           </form>
+        </div> 
 
    	<div class="row button-section">
    		<div class="col-twelve">
-   			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
-   			<a href="https://drive.google.com/file/d/1pP-3fGkt-gSD19sMkX7ZJdsKz_h-7thp/view?usp=sharing" title="Download CV" class="button button-primary">Download CV</a>
+                 <a href="#contact" title="Open Source Contribution" class="button stroke smoothscroll" onclick="openForm()">Open Source Work</a>
+   		 <a href="https://drive.google.com/file/d/1pP-3fGkt-gSD19sMkX7ZJdsKz_h-7thp/view?usp=sharing" title="Download CV" class="button button-primary">Download CV</a>
    		</div>   		
    	</div>
 
@@ -789,7 +796,14 @@
       var cssdefer = document.getElementsByTagName('link')[0];
       cssdefer.parentNode.insertBefore(deferload, cssdefer);
    </script>
+      function openForm() {
+        document.getElementById("myForm").style.display = "block";
+      }
 
+      function closeForm() {
+        document.getElementById("myForm").style.display = "none";
+      }
+   </script>
    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 </body>
 
