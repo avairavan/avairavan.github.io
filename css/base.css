@@ -23,7 +23,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 
 /* Add styles to the form container */
 .form-container {
-  width: 750px;
+  width: screen.availWidth;
   height: 500px;
   padding: 10px;
   background-color: white;
